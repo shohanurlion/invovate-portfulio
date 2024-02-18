@@ -1,0 +1,594 @@
+*{
+    padding:0px;
+    margin:0px;
+    box-sizing:border-box;
+}
+a{
+    text-decoration:none;
+}
+ul{
+    list-style:none;
+}
+
+/* Navbar style start */
+nav{
+    background-color:#EBF7E9;
+}
+a.nav-link {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    color: #192239;
+    padding-right: 20px !important;
+}
+
+a.nav-link.active {
+    color: red !important;
+}
+.btn1 .custom_btn {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 36px;
+    color: #fff;
+    padding: 14px 28px;
+    border: none;
+    background-color: #FF7628;
+    border-radius: 100px;
+}
+/* Navbar style end */
+
+/* Banner section style start */
+#banner{
+    background:#EBF7E9 ;
+    position:relative;
+}
+#banner .banner_bg1 {
+    width: 458px;
+    position: absolute;
+    top: 95px;
+    right: 2px;
+}
+#banner .banner_bg2 {
+    width: 461px;
+    position: absolute;
+    top: 335px;
+    right: 205px;
+}
+#banner .banner_text {
+    padding: 100px 0px 167px 0px;
+}
+#banner .banner_text img{
+    vertical-align: middle;
+    padding-bottom: 22px !important;
+}
+#banner .banner_text h1 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 72px;
+    line-height: 98px;
+    color: #192239;
+    padding-bottom:20px;
+}
+#banner span {
+    color: #FF7628;
+}
+#banner .banner_text p {
+    font-family: paprika;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 36px;
+    color: #6C7D93;
+    padding: 0px 261px 60px 0px;
+}
+#banner .banner_text .banner_btn {
+    padding: 20px 40px;
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FF7628;
+    border: 1px solid #FF7628;
+    border-radius: 100px;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: 0.7s;
+}
+#banner .banner_text .banner_btn:hover{
+    background-color: #FF7628;
+    color:white;
+}
+/* Banner section style end */
+
+/* Our Services style start */
+#services {
+    padding: 60px 0px 100px 0px;
+}
+    #services .services_titel {
+        text-align: center;
+    }
+    #services .services_titel h2 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 800;
+        font-size: 48px;
+        line-height: 65px;
+        color: #192239;
+        padding: 16px 0px 15px 0px;
+    }
+    #services .services_titel p {
+        font-family: paprika;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #6C7D93;
+        padding: 0px 0px 53px 0px;
+    }
+    #services .services_box {
+        text-align: center;
+        padding: 52px 48px 52px 48px;
+        border-radius: 20px;
+        background-color: #EBF7E9;
+      
+    }
+    #services .services_box.custom_bg1 {
+        background-color: #D8EAFF !important;
+    }
+    #services .services_box.custom_bg2 {
+        background-color: #FBF1EC !important;
+    }
+    #services .services_box h3 {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 36px;
+        color: #202427;
+        padding: 28px 0px 20px 0px;
+    }
+    #services .services_box p {
+        font-family: paprika;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 30px;
+        color: #6C7D93;
+        padding: 0px 30px 20px 30px;
+    }
+    #services .services_box a {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 24px;
+        color: #202427;
+    }
+    #services .services_box .custom_services_link{
+        position: relative;
+    }
+    #services .services_box a::before {
+        content: '';
+        position: absolute;
+        left: 91px;
+        top: -4px;
+        height: 33px;
+        width: 33px;
+        background-color: #FF7628;
+        border-radius: 100px;
+        transition: 0.5s;
+        opacity: 50%;
+    }
+    #services .services_box a:hover::before{
+        width: 130px;
+
+    }
+/* Our Services style end */
+
+/* Who We Are style start */
+#who_are {
+    padding: 100px 0px 80px 0px;
+}
+#who_are h2 {
+    font-family: open sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #192239;
+    padding: 16px 0px 15px 0px;
+}
+#who_are p {
+    font-family: paprika;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6C7D93;
+    padding: 0px 187px 23px 0px;
+}
+/* Who We Are style end */
+
+/* Work Showcase style start */
+#showcase {
+    padding-bottom: 100px;
+}
+#showcase .showcase_titel {
+    text-align: center;
+}
+#showcase .showcase_titel h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #192239;
+    padding: 16px 0px 47px 0px;
+}
+#showcase .menu {
+    padding-bottom: 52px;
+}
+#showcase .menu a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #6C7D93;
+    padding-right: 46px !important;
+}
+a.active {
+    color: #FF7628 !important;
+}
+
+/* ovarlay start */
+.overly_demo{
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #008CBA;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    border-radius: 20px;
+    opacity: 0.8;
+  }
+  #showcase .overly_demo:hover .overlay {
+    height: 100%;
+    cursor: pointer;
+  }
+  #showcase .overly_demo .overlay .text {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    white-space: nowrap;
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+}
+#showcase .overly_demo .overlay .text a{
+    color:black;
+}
+#showcase .overly_demo .overlay .text a:hover{
+    color:red;
+}
+/* Work Showcase style end */
+/* Our creative process style start */
+#creative {
+    padding-bottom: 100px;
+}
+#creative .creative_title {
+    text-align: center;
+    padding: 80px 0px 52px 0px;
+}
+#creative .creative_title h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #192239;
+    padding: 16px 0px 20px 0px;
+}
+#creative .creative_title p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0px 221px;
+}
+#creative .seo {
+    width: 465px;
+    height: 207px;
+    background-color: #EBF7E9;
+    border-radius: 20px;
+    padding: 24px 60px 20px 24px;
+}
+#creative .seo.seo_bg1 {
+    position: relative;
+    left: 105px;
+    background-color: #D8EAFF !important;
+}
+#creative .seo.seo_bg2 {
+    background-color: #FBF1EC !important;
+}
+#creative .seo a {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #202427;
+}
+
+#creative .seo a::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: -4px;
+    height: 33px;
+    width: 33px;
+    background-color: #FF7628;
+    border-radius: 100px;
+    transition: 0.5s;
+    opacity: 50%;
+}
+#creative .seo a:hover::before{
+    width: 90px;
+
+}
+#creative .seo h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 32px;
+    color: #202427;
+    padding: 18px 0px 20px 0px;
+}
+#creative .seo p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+/* Our creative process style end */
+/* Client Review style start */
+#review {
+    padding: 100px 0px 100px 0px;
+}
+#review .review_titel .left_right_btn button {
+    width: 64px;
+    height: 64px;
+    border: none;
+    background: #FF7628;
+    border-radius: 100px;
+    color: white;
+    font-size: 27px;
+    margin-right: 25px;
+}
+#review h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #192239;
+    padding: 16px 0px 20px 0px;
+}
+#review p {
+    font-family: paprika;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    color: #6C7D93;
+    padding: 0px 74px 0px 0px;
+}
+#review .review_one {
+    padding: 25px 33px 58px 19px;
+    border-radius: 20px;
+    box-shadow: 0px 30px 60px 0px #30333a1a;
+    transition: 0.5s;
+}
+#review .review_one:hover {
+    background-color: #D8EAFF;
+}
+#review .review_one_bottom{
+    margin-top: 58px;
+}
+#review img{
+    vertical-align: middle;
+    margin-right: 15px;
+}
+#review h3 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+    color: #202427;
+}
+#review small {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #202427;
+}
+/* Client Review style end */
+
+/* Our Latest Blog style start */
+#blog {
+    padding-bottom: 100px;
+}
+#blog .creative_title {
+    text-align: center;
+    padding: 80px 0px 52px 0px;
+}
+#blog .creative_title h2 {
+    font-family: "Open Sans", sans-serif;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 65px;
+    color: #192239;
+    padding: 16px 0px 20px 0px;
+}
+#blog .creative_title p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0px 221px;
+}
+#blog .card {
+    border: none;
+    box-shadow: 0px 28px 30px 0px #637AA60D;
+
+}
+#blog .card-body {
+    padding: 30px 179px 0px 30px;
+}
+#blog .card-title {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 32px;
+    color: #413F45;
+    padding-bottom: 16px;
+}
+#blog .card-text {
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #474747;
+    padding-bottom: 30px;
+}
+#blog .card-body .blog_btn{
+    position: relative;
+}
+#blog .card-body .blog_btn a {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    color: #202427;
+    padding-bottom: 35px !important;
+    display: inline-block;
+}
+#blog .card-body .blog_btn a::before {
+    content: '';
+    position: absolute;
+    left: -11px;
+    top: -4px;
+    height: 33px;
+    width: 33px;
+    background-color: #FF7628;
+    border-radius: 100px;
+    transition: 0.5s;
+    opacity: 50%;
+}
+#blog .card-body .blog_btn a:hover::before{
+    width: 120px;
+
+}
+/* Our Latest Blog style end */
+
+/* Footer part style start */
+footer {
+    width: 100%;
+    background: #FFFFFF
+    ;
+}
+footer .footer_flex{
+    display:flex;
+}
+footer .footer_flex .footer_left {
+    width: 40%;
+    padding-top: 140px;
+}
+footer .footer_flex .footer_left .footer_log {
+    padding-bottom: 44px;
+}
+footer .footer_flex .footer_left p {
+    color: #6C7D93;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-right: 64px;
+    padding-bottom: 189px;
+}
+
+footer .footer_flex .footer_right {
+    width: 60%;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer_flex .footer_right .features {
+    padding-right: 100px;
+}
+footer .footer_flex .footer_right:nth-child(2) .features {
+    padding-right: 140px;
+}
+footer .footer_flex .footer_right .features:last-child {
+    padding-right: 0px;
+}
+
+footer .footer_flex .footer_right h4 {
+    color: #6C7D93;
+    font-family: "Open Sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+    padding-bottom: 48px;
+}
+footer .footer_flex .footer_right ul{
+
+}
+footer .footer_flex .footer_right ul li{
+    padding-bottom:15px;
+}
+footer .footer_flex .footer_right ul li a {
+    color: #6C7D93;
+    font-family: "Nunito", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+footer .container .last_part {
+    display: flex;
+}
+footer .container .last_part h5 {
+    color: #29313D;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+    padding-right: 530px;
+    padding-bottom:57px;
+}
+footer .container .last_part ul{
+    
+}
+footer .container .last_part ul li {
+    display: inline-block;
+}
+
+footer .container .last_part ul li a {
+    padding-right: 36px;
+    color: #29313D;
+    font-family: "Nunito", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 180%;
+    text-transform: capitalize;
+}
+
+/* Footer part style end */
